@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Contact Us</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/index.css">
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div id="mySidebar" class="sidebar">
+			<h4>S&J</h4>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/nav-hamburger-close.png" alt=""></a>
+			<a href="index.html">Home</a>
+			<a href="services.html">Services</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		<header class="header">
+			<h4>S&J</h4>
+			<nav>
+				<img class="openbtn" onclick="openNav()" src="img/nav-hamburger.png" alt="">
+			</nav>
+		</header>
+
+		<div class="container contact-jumbotron">
+			<h1>Contact Us</h1>
+		</div>
+
+		<div class="container getInTouch">
+			<form>
+				<h3>Get In Touch</h3>
+				<label for="Email">Email address</label>
+				<br>
+				<input type="email" class="email-input" name="email" placeholder="Enter email">
+				<br>
+				<span>We'll never share your email with anyone else.</span>
+				<br>
+				<br>
+				<label for="number">How many buildings do you need planned?</label>
+				<br>
+				<input type="number" name="numbers" min="1" max="5" value="1">
+				<br>
+				<br>
+				<label for="textarea">Provide a brief overview of your project needs:</label>
+				<br>
+				<textarea rows="8" cols="60"></textarea>
+				<br>
+				<br>
+				<label for="business"></label>
+				<input type="radio" name="business" id="small">
+				<label for="small">I am a small business</label>
+				<br>
+				<input type="radio" name="business" id="residential">
+				<label for="residential">I am a residential owner</label>
+				<br>
+				<input type="radio" name="business" id="corporation">
+				<label for="corporation">I am a corporation</label>
+				<br>
+				<br>
+				<button type="submit" class="button" name="submit">Submit</button>
+			</form>
+
+			<aside class="contact-work">
+				<h3>Where We Work</h3>
+				<div>
+		            <ul>
+		                <li><h5>New York</h5></li>
+		                <li>123 Lane</li>
+		                <li>Suite 100</li>
+		                <li>Albany, NY 12345</li>
+		                <li>202 555 0144</li>
+		            </ul>
+		        </div>
+
+				<div>
+		    		<ul>
+		                <li><h5>Florida</h5></li>
+		                <li>Ocean Drive</li>
+		                <li>Suite 201</li>
+		                <li>Orlando, FL 22345</li>
+		                <li>502 555 0144</li>
+		            </ul>
+		        </div>
+
+				<div>
+		    		<ul>
+		                <li><h5>California</h5></li>
+		                <li>Mountain Street</li>
+		                <li>Suite 105</li>
+		                <li>San Diego, CA 22345</li>
+		                <li>702 555 0144</li>
+		            </ul>
+		        </div>
+			</aside>
+		</div>
+
+		<footer>
+			<div class="container container-footer">
+				<div class="col-2">
+					<h5>Interested in starting a project?<br>
+					Let’s talk:</h5>
+					<input type="email" name="email" placeholder="Enter email"><br>
+					<p>We'll never share your email with anyone else.</p>
+				</div>
+
+				<div class="col-1">
+		            <ul class="unstyled-list">
+		                <li><h5>New York</h5></li>
+		                <li>123 Lane</li>
+		                <li>Suite 100</li>
+		                <li>Albany, NY 12345</li>
+		                <li>202 555 0144</li>
+		            </ul>
+		        </div>
+
+				<div class="col-1">
+		    		<ul class="unstyled-list">
+		                <li><h5>Florida</h5></li>
+		                <li>Ocean Drive</li>
+		                <li>Suite 201</li>
+		                <li>Orlando, FL 22345</li>
+		                <li>502 555 0144</li>
+		            </ul>
+		        </div>
+
+				<div class="col-1">
+		    		<ul class="unstyled-list">
+		                <li><h5>California</h5></li>
+		                <li>Mountain Street</li>
+		                <li>Suite 105</li>
+		                <li>San Diego, CA 22345</li>
+		                <li>702 555 0144</li>
+		            </ul>
+		        </div>
+			</div>
+
+			<span>Copyright &copy; 2018 Smith and Jones</span>
+		</footer>
+
+		<script src="js/index.js"></script>
+	</body>
+</html>
