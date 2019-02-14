@@ -84,22 +84,26 @@ body{
 .header {
     height: 50px;
     background: #828282;
-    position: absolute;
     top: 0;
-    width: 100vw;
+    max-width: 100%;
+    
 }
 
-.header h4 {
-    margin-left: 5%;
-    display: inline-block;
+.header-container  {
+    max-width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h4 {
     color: #FFFFFF;
+    text-transform: uppercase;
+    border: 1px solid;
 }
 
-nav {
-    display: block;
-    float: right;
-    margin-right: 5%;
-}
 
 nav li {
     list-style-type: none;
